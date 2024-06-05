@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &kp F1       &kp F2      &kp F3    &kp F4    &kp F5         &kp F6            &tog 1                                                   &mo 3        &kp F7          &kp F8     &kp F9            &kp F10           &kp F11    &kp F12
- &trans     &kp EXCL   &kp EQUAL  &kp LBRC  &kp RBRC       &kp PIPE             &none                                                   &none  &kp ASTERISK   &kp LESS_THAN     &kp UP   &kp GREATER_THAN          &kp PLUS     &trans
- &trans     &kp HASH  &kp DOLLAR  &kp LBKT  &kp RBKT  &kp AMPERSAND             &none  &trans  &trans                  &trans  &trans   &none     &kp QMARK        &kp LEFT   &kp DOWN          &kp RIGHT  &kp SINGLE_QUOTE  &kp COLON
- &trans  &kp PERCENT   &kp CARET  &kp LPAR  &kp RPAR      &kp GRAVE                            &trans                  &trans                      &kp FSLH  &kp UNDERSCORE  &kp MINUS  &kp DOUBLE_QUOTES     &kp BACKSLASH     &trans
- &trans       &trans      &trans    &trans    &trans                           &trans  &trans  &trans                  &trans  &trans  &trans                        &trans     &trans             &trans            &trans     &trans
+ &kp F1       &kp F2      &kp F3    &kp F4    &kp F5         &kp F6            &tog 1                                                                 &mo 3        &kp F7          &kp F8     &kp F9            &kp F10           &kp F11    &kp F12
+ &trans     &kp EXCL   &kp EQUAL  &kp LBRC  &kp RBRC       &kp PIPE             &none                                                                 &none  &kp ASTERISK   &kp LESS_THAN     &kp UP   &kp GREATER_THAN          &kp PLUS     &trans
+ &trans     &kp HASH  &kp DOLLAR  &kp LBKT  &kp RBKT  &kp AMPERSAND             &none  &kp K_PLAY_PAUSE  &kp K_MUTE                  &trans  &trans   &none     &kp QMARK        &kp LEFT   &kp DOWN          &kp RIGHT  &kp SINGLE_QUOTE  &kp COLON
+ &trans  &kp PERCENT   &kp CARET  &kp LPAR  &kp RPAR      &kp GRAVE                                      &kp K_NEXT                  &trans                      &kp FSLH  &kp UNDERSCORE  &kp MINUS  &kp DOUBLE_QUOTES     &kp BACKSLASH     &trans
+ &trans       &trans      &trans    &trans    &trans                           &trans            &trans  &kp K_PREV                  &trans  &trans  &trans                        &trans     &trans             &trans            &trans     &trans
             >;
         };
 
